@@ -11,3 +11,8 @@ In addition to the statistical test, we can determine which variables provide a 
 It is fair to say that a linear regression model is appropriate for this dataset and does provide the information on which variables were statistcally unlikely to provide random amounts of variance. However, the amount of information that can be obtained and analyzed will be far greater using a multiple linear regression model.
 
 ## Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lot 1 and Lot 2 are both within design specifications and have nearly the same mean and median. Lot 3 shows the most variance and exceeds the manufacturers specs. This is proven by analyzing the variance and standard deviation. In meeting design specifications, manufacturers require a minimal variance and standard deviation based on the min/max allowed by the designer. Lot 3 shows the largest variance along with its mean and median varying far from the required 1500.
+
+
+## T-Tests on Suspension Coils
