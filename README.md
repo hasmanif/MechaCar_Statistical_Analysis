@@ -23,4 +23,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![2](images/lot2.PNG) 
 ![3](images/lot3.PNG) 
 
-Testing
+Assuming our significance level was the common 0.05 percent, in order to state that the two means are statistically similar, our p-value is must be above our significance level. Lot 1 and Lot 2 have a p-value of 1.0 and 0.61 respectively; therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. However lot 3 the p-value is 0.04 which means there is evidence that the suspension coil is different from the population mean and in this case, we would reject null hypothesis.
+
+## Study Design: MechaCar vs Competition
+
+Majority of consumers focus on. We can use our tests to see if our MechaCar is much different from the competiton. We can make a null hypothesis stating that it is not different from the competition and our Alternative would be the opposite. To do this we will need to use our t-test after collecting data from different types of competitor vehicles. Our t-test will be comparing the population of all types of competitor vehicles.
