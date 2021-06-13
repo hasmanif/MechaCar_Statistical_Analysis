@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-
+![linear](images/linearregression.PNG) 
 From our linear regression model, the r-swaured value is 0.71, which means that roughly 71% of the variability of our dependent variable (MPG) is explained using this linear model. The higher the correlation is between two variables, the more one variable can predict the value of the other.
 
 As for the p-value of our linear regression analysis, 5.35 x10^-11 is much smaller than our assumed significance level of 0.05%, therefore we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
