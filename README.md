@@ -28,6 +28,7 @@ Assuming our significance level was the common 0.05 percent, in order to state t
 ## Study Design: MechaCar vs Competition
 ![stats](images/statistics.PNG)
 
+### Metrics and Hypothesis
 According to Statistica Global Consumer Survey 2018, the top factor for choosing a new car is Safety. Using this chart, we can take the top quantitative factors and use them as our metrics to compare MechaCar vehicles against the performance of vehicles from other manufacturers. The most ideal and commonly available quatitative factors would be Safety Ratings, Fuel Efficiency (MPG), Warranty Period, MSRP of Vehicle, Spaciousness(seating), and Design (engine size and HP). There are several options in comparing MechaCar to its competitors:
 - t-tests in direct comparisons of each catergory listed above.
 - Using an Anova Test to compare MechaCar's MPG based on vehicle seatings (size) and price (where you get the most for your dollar).
