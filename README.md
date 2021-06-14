@@ -28,13 +28,14 @@ Assuming our significance level was the common 0.05 percent, in order to state t
 ## Study Design: MechaCar vs Competition
 ![stats](images/statistics.PNG)
 
-According to Statistica Global Consumer Survy 2018, the top factor for choosing a new car is Safety. Using this chart, we can take the top quantitative factors and use them as our metrics to compare MechaCar vehicles against the performance of vehicles from other manufacturers. The most ideal and commonly available quatitative factors would be Safety Ratings, Fuel Efficiency (MPG), Warranty Period, MSRP of Vehicle, Spaciousness(seating), and Design (engine size and HP). There are several options in comparing MechaCar to its competitors:
+According to Statistica Global Consumer Survey 2018, the top factor for choosing a new car is Safety. Using this chart, we can take the top quantitative factors and use them as our metrics to compare MechaCar vehicles against the performance of vehicles from other manufacturers. The most ideal and commonly available quatitative factors would be Safety Ratings, Fuel Efficiency (MPG), Warranty Period, MSRP of Vehicle, Spaciousness(seating), and Design (engine size and HP). There are several options in comparing MechaCar to its competitors:
 - t-tests in direct comparisons of each catergory listed above.
 - Using an Anova Test to compare MechaCar's MPG based on vehicle seatings (size) and price (where you get the most for your dollar).
 - Comparisons of Safety with HP and how safety can be potentially reduced with more HP cars (is safety reduced at higher HP?).
 
-Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors.
-Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors.
+We would use the below Null and Alternate hypothesis for testing:
+- Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors.
+- Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors.
 
 ### Statistical Tests
-A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable)
+In this design, the most suitable test would be a multiple linear regression as it uses several multiple independant variables to account for parts of the total variance observed in the dependant variable. We can predict the price (dependant variable) by adding the top consumer factors in choosing a new car as independant variables. The results will show which independant variables are statiscally unlikely to provide random amounts of variance to the linear model. In other words, those metrics would be the ones that have the most significant impact on price.
