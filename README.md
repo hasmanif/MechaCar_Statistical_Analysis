@@ -26,5 +26,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 Assuming our significance level was the common 0.05 percent, in order to state that the two means are statistically similar, our p-value is must be above our significance level. Lot 1 and Lot 2 have a p-value of 1.0 and 0.61 respectively; therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. However lot 3 the p-value is 0.04 which means there is evidence that the suspension coil is different from the population mean and in this case, we would reject null hypothesis.
 
 ## Study Design: MechaCar vs Competition
+![stats](images/statistics.PNG)
 
-Majority of consumers focus on. We can use our tests to see if our MechaCar is much different from the competiton. We can make a null hypothesis stating that it is not different from the competition and our Alternative would be the opposite. To do this we will need to use our t-test after collecting data from different types of competitor vehicles. Our t-test will be comparing the population of all types of competitor vehicles.
+According to Statistica Global Consumer Survy 2018, the top factor for choosing a new car is Safety. Using this chart, we can take the top quantitative factors and use them as our metrics to compare MechaCar vehicles against the performance of vehicles from other manufacturers. The most ideal and commonly available quatitative factors would be Safety Ratings, Fuel Efficiency (MPG), Warranty Period, MSRP of Vehicle, Spaciousness(seating), and Design (engine size and HP). There are several options in comparing MechaCar to its competitors:
+- t-tests in direct comparisons of each catergory listed above.
+- Using an Anova Test to compare MechaCar's MPG based on vehicle seatings (size) and price (where you get the most for your dollar).
+- Comparisons of Safety with HP and how safety can be potentially reduced with more HP cars (is safety reduced at higher HP?).
+
+Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors.
+Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors.
+
+### Statistical Tests
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable)
